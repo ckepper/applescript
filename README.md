@@ -1,0 +1,1 @@
+A collection of AppleScript files for personal use (e.g. as Apple Mail filters) 
