@@ -12,7 +12,7 @@
       "type": "shell",
       "command": "osascript",
       "args": [
-        "save_Attachment_to_Downloads_Folder.applescript"
+        "./mail/save_Attachment_to_Downloads_Folder.applescript"
       ]
     },
     {
@@ -23,6 +23,17 @@
         "-o",
         "./mail/com.apple.mail/save_Attachment_to_Downloads_Folder.scpt",
         "./mail/save_Attachment_to_Downloads_Folder.applescript"
+      ],
+      "group": "build"
+    },
+    {
+      "label": "Compile save_Message_to_Downloads_Folder",
+      "type": "shell",
+      "command": "osacompile",
+      "args": [
+        "-o",
+        "./mail/com.apple.mail/save_Message_to_Downloads_Folder.scpt",
+        "./mail/save_Message_to_Downloads_Folder.applescript"
       ],
       "group": "build"
     }
