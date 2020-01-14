@@ -7,13 +7,15 @@ This is a small collection of scripts for use with [Apple Mail](https://en.wikip
 file `save_Attachment_to_Downloads_Folder.applescript`
 * This is a script for use with an Apple Mail rule. 
 * Saves all **attachments** of the matched message in `~/Downloads` folder
-* Rename attachment to current date in ISO 8601 format and adds the name of the rule: `2020-01-01 - RuleName MessageSubject.pdf`
+* Rename attachment to current date in ISO 8601 format and adds the name of the rule: 
+  * `2020-01-01 - RuleName originalAttachmentFileName.pdf`
 
 ## Export Messages as PDF
 file `save_Message_to_Downloads_Folder.applescript`
 * This is a script for use with an Apple Mail rule. 
 * export matched **messages** as PDF to `~/Downloads` folder
-* Rename attachment to current date in ISO 8601 format and adds the name of the rule: `2020-01-01 - RuleName MessageSubject.pdf`
+* Rename attachment to current date in ISO 8601 format and adds the name of the rule: 
+  * `2020-01-01 - RuleName MessageSubject.pdf`
 
 
 ## Getting Started
