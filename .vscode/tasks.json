@@ -8,14 +8,6 @@
       "args": []
     },
     {
-      "label": "Run save_Attachment_to_Downloads_Folder",
-      "type": "shell",
-      "command": "osascript",
-      "args": [
-        "./mail/save_Attachment_to_Downloads_Folder.applescript"
-      ]
-    },
-    {
       "label": "Compile save_Attachment_to_Downloads_Folder",
       "type": "shell",
       "command": "osacompile",
