@@ -1,7 +1,7 @@
 -- code to test the Mail rule script:
 -- tell application "Mail"
 -- 	set theSel to selection -- selected emails will be used for test
--- 	set theRule to rule "BoD Rechnung"
+-- 	set theRule to rule "Name of existing Mail rule"
 -- end tell
 -- using terms from application "Mail"
 -- 	perform mail action with messages theSel in mailboxes ("Archive - PediaPress (Alle Nachrichten)") for rule theRule
@@ -20,7 +20,6 @@ using terms from application "Mail"
 				
 				set {year:y, month:m, day:d, hours:h, minutes:min} to eachMessage's date sent
 				set timeStamp to ("" & y & "-" & my pad(m as integer) & "-" & my pad(d))
-				
 				try
 					-- Save the attachment
 					repeat with theAttachment in eachMessage's mail attachments
