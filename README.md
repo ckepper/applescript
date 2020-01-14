@@ -19,7 +19,6 @@ file `save_Message_to_Downloads_Folder.applescript`
 
 
 ## Getting Started
-The scripts must be stored in `~/Library/Application\ Scripts/com.apple.mail` to be picked up by Apple Mail. You can either copy the files manually or rely on the pre-configured VS Code tasks to do that:
+The scripts must be stored in `~/Library/Application Scripts/com.apple.mail` to be picked up by Apple Mail. 
 
-* Run `setup_symlinks.sh` to create a symlink to `~/Library/Application\ Scripts/com.apple.mail`. This enables the compilation tasks.
-* Run the `Compile ...` tasks to compile a script and store it in the `~/Library/Application\ Scripts/com.apple.mail` directory
+* Run `make install` to compile the scripts and store them in the `~/Library/Application Scripts/com.apple.mail` directory
